@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="apr3.PrimusPersnolbnkng">
+        <methods>
+          <include name="setup"/>
+          <include name="ibanking"/>
+          <include name="teardown"/>
+          <include name="cbanking"/>
+          <include name="pbanking"/>
+        </methods>
+      </class> <!-- apr3.PrimusPersnolbnkng -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
